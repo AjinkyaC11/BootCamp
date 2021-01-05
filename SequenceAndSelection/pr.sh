@@ -4,38 +4,40 @@ x=$((RANDOM%10))
 
 if [ $x -eq 1 ]
 then 
-     echo "1"
+     echo "one"
 
 elif [ $x -eq 2 ]
 then
-     echo "2"
+     echo "two"
 
 elif [ $x -eq 3 ]
 then
-     echo "3"
+     echo "three"
 
 elif [ $x -eq 4 ]
 then
-     echo "4"
+     echo "Four"
+
+
 
 elif [ $x -eq 5 ]
 then
-     echo "5"
+     echo "Five"
 
 elif [ $x -eq 6 ]
 then
-     echo "6"
+     echo "Six"
 
 elif [ $x -eq 7 ]
 then
-     echo "7"
+     echo "Seven"
 
 elif [ $x -eq 8 ]
 then
-     echo "8"
+     echo "Eight"
 
 elif [ $x -eq 9 ]
 then
-     echo "9"
+     echo "Nine"
  
 fi
