@@ -7,8 +7,7 @@ r=0
 
 rev=""
 
-
-temp=$num 
+temp=$num
 
 while [ $num -gt 0 ] 
 do
