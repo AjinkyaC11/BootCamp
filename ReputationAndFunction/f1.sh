@@ -1,4 +1,4 @@
-#!/bin/bash -x
+x#!/bin/bash -x
 
 Hello () 
 {
