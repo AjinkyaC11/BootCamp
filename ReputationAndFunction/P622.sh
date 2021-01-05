@@ -1,33 +1,26 @@
 #!/bin/bash -x
 
-read -p "Enter Number : " num 
+read -p "Enter Number : " num
 
-   
 # Storing the remainder 
-s=0 
-   
-# Store number in reverse  
-# order 
+r=0
+
 rev=""
-   
-# Store original number  
-# in another variable 
+
+
 temp=$num 
-   
+
 while [ $num -gt 0 ] 
 do
-    # Get Remainder 
-    s=$(( $num % 10 ))   
-      
-    # Get next digit 
-    num=$(( $num / 10 ))  
-      
-    # Store previous number and 
-    # current digit in reverse  
-    rev=$( echo ${rev}${s} )  
+
+    r=$(( $num % 10 ))
+
+    num=$(( $num / 10 ))
+
+    rev=$( echo ${rev}${r} )
 done
-   
-if [ $temp -eq $rev ]; 
+
+if [ $temp -eq $rev ];
 then
     echo "Number is palindrome"
 else
